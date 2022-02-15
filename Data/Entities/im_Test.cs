@@ -7,8 +7,10 @@ namespace FAQ_Api.Data.Entities
 {
     public class im_Test
     {
-        public Guid Id { get; set; }        
+        public Guid Id { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime ModifiedDate { get; set; }       
+        public DateTime ModifiedDate { get; set; }
+        public string Name { get; set; }
 
     }
+}
