@@ -52,7 +52,5 @@ namespace FAQ_Api.Controllers
                 return BadRequest();
             }
         }
-        [HttpGet]
-        public async Task<>
-    }
+        
 }        
